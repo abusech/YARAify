@@ -3,7 +3,7 @@ import requests
 import urllib3
 import json
 
-pool = urllib3.HTTPSConnectionPool('yaraify-api.abuse.ch', port=443, maxsize=50, cert_reqs='CERT_NONE', assert_hostname=True)
+pool = urllib3.HTTPSConnectionPool('yaraify-api.abuse.ch', port=443, maxsize=50)
 
 data = {
     'query':            'list_tasks',
