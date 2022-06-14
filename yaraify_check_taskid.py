@@ -10,7 +10,7 @@ else:
     print("Usage: python3 yaraifier_check_taskid.py <task_id>")
     quit()
 
-pool = urllib3.HTTPSConnectionPool('yaraify-api.abuse.ch', port=443, maxsize=50, cert_reqs='CERT_NONE', assert_hostname=True)
+pool = urllib3.HTTPSConnectionPool('yaraify-api.abuse.ch', port=443, maxsize=50)
 
 data = {
     'query':            'get_results',
