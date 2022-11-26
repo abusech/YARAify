@@ -44,3 +44,10 @@ Once you created your own (private) identifier and submited files to the YARAify
 ```
 python3 yaraify_list_tasks.py <identifier> queued
 ```
+
+
+## API documentation
+
+The documentation for the YARAify API is available here:
+
+https://yaraify.abuse.ch/api/
