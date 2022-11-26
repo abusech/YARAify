@@ -4,9 +4,7 @@ import urllib3
 import json
 import sys
 
-if len(sys.argv) > 1:
-    file = sys.argv[1]
-else:
+if len(sys.argv) < 2:
     print("Usage: python3 yaraifier_check_taskid.py <task_id>")
     quit()
 
