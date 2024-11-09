@@ -6,7 +6,7 @@ import sys
 
 if len(sys.argv) < 4:
     print("Lists YARAify tasks associated with a specific identifier")
-    print("Usage: python3 yaraify_list_tasks.py <identifier> <task-status>")
+    print("Usage: python3 yaraify_list_tasks.py <YOUR-AUTH-KEY> <identifier> <task-status>")
     print("Note: If you don't have an Auth-Key yet, you can obtain one at https://auth.abuse.ch/")
     quit()
 
