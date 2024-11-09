@@ -1,6 +1,8 @@
 # YARAify
 YARAify is an open YARA scan- and search engine. This repository provides some sample python3 scripts on how to interact with the YARAify API.
 
+## Obtain an Auth-Key
+In order to query the YARA API, you need to obtain an ```Auth-Key```.  If you don't have an Auth-Key yet, you can get one at https://auth.abuse.ch/ for free.
 
 ## Submit a file for YARA scanning
 This script calls the [scan endpoint](https://yaraify.abuse.ch/api/#file-scan) to scan a file using the YARAify service.
