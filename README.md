@@ -48,7 +48,7 @@ python3 yaraify_list_tasks.py <identifier> queued
 ```
 
 ## Deploy a YARA rule for live hunting
-This script calls the endpoint for [deploying a YARA rule](https://yaraify.abuse.ch/api/#deploy-scan) to conduct live hunting on YARAify with your own rule.
+This script calls the endpoint for [deploying a YARA rule](https://yaraify.abuse.ch/api/#deploy-yara) to conduct live hunting on YARAify with your own rule.
 
 ```
 python3 upload_yara_rule.py <YOUR-AUTH-KEY> <yara-rule-file>
