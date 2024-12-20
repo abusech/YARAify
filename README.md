@@ -47,7 +47,7 @@ Once you created your own (private) identifier and submited files to the YARAify
 python3 yaraify_list_tasks.py <identifier> queued
 ```
 
-## Submit a YARA rule for live hunting
+## Deploy a YARA rule for live hunting
 This script calls the endpoint for [deploying a YARA rule](https://yaraify.abuse.ch/api/#deploy-scan) to conduct live hunting on YARAify with your own rule.
 
 ```
