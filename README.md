@@ -47,6 +47,14 @@ Once you created your own (private) identifier and submited files to the YARAify
 python3 yaraify_list_tasks.py <identifier> queued
 ```
 
+
+## Trigger a rescan of a file
+This script calls the endpoint for [file rescan](https://yaraify.abuse.ch/api/#rescan) to trigger an immediate rescan of a file.
+
+```
+python3 yaraify_rescan.py <hash>
+```
+
 ## Deploy a YARA rule for live hunting
 This script calls the endpoint for [deploying a YARA rule](https://yaraify.abuse.ch/api/#deploy-yara) to conduct live hunting on YARAify with your own rule.
 
